@@ -1,3 +1,10 @@
+
+
+
+sources in (Compile,doc) := Seq.empty
+publishArtifact in (Compile, packageDoc) := false
+
+
 lazy val root = (project in file("."))
   .enablePlugins(PlayScala)
   .settings(
